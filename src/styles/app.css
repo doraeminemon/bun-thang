@@ -2,15 +2,19 @@
 @plugin '@tailwindcss/typography';
 
 a {
-	@apply text-blue-800 underline;
+	@apply inline-flex items-center gap-x-2 rounded-lg text-sm font-semibold text-gray-800 hover:text-blue-600 focus:text-blue-600 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-white dark:hover:text-white/70 dark:focus:text-white/70;
+}
+
+p {
+	@apply text-sm;
 }
 
 h1 {
-	@apply py-2 text-2xl;
+	@apply py-2 text-xl;
 }
 
 h2 {
-	@apply py-2 text-xl;
+	@apply py-2;
 }
 
 .button {
@@ -25,6 +29,10 @@ a.button {
 	font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;
+}
+
+main {
+	@apply mx-4 my-8 min-h-screen;
 }
 
 h1,

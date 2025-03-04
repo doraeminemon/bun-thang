@@ -3,11 +3,14 @@
     import Image from '../../components/image.svelte';
 </script>
 
-<section class="mx-4 my-8 min-h-screen">
+<main>
+  <h1>Thuốc Lào Phú An</h1>
+  <br />
   <section class="hero">
     <!-- <Image photo={ThuocLaoImg} /> -->
      <img src={ThuocLaoImg} alt="a pipe and a glass of tea"/>
   </section>
+  <br />
   <section class="philosophy">
     <h2>Triết học</h2>
     <p>
@@ -33,9 +36,10 @@
       như chống cúm ở nơi khí hậu ẩm ướt như Việt Nam.
     </p>
   </section>
+  <br />
   <section class="flex flex-col items-center">
     <a class="button" href="https://wise-horse-drsbjai2.twenty.com/invite/b1778fdf-ec56-43ca-a42d-5c8cddf2e0c1">
       Join The Club!
     </a>
   </section>
-</section>
+</main>
