@@ -1,7 +1,9 @@
-<section class="mx-4 my-8 min-h-screen">
-  <h1>Bún Thang</h1>
-  <p> Bún thang là một thức ăn dễ tìm, dễ thấy của người Việt với những
-    nguyên liệu đơn giản. Chỉ cần một chút bún, ít mắm tôm, gà, trứng luộc,
-    giò thái sợi cùng một chút hành thơm, bạn đã có một món ăn đơn giản và
-    nhẹ bụng cho những ngày xuân hơi se se lạnh.</p>
+<section class="mx-4 my-8 min-h-screen flex flex-col">
+  <h1>Thuốc Lào Blog</h1>
+  <p class="py-4">Chỉ đơn giản là một trang blog về văn hoá Việt Nam</p>
+  <a href="/bun-cha">Bún Chả</a>
+  <a href="/thuoc-lao">Thuốc Lào</a>
+  <a href="/tra-da">Trà Đá</a>
+  <a href="/bun-thang">Bún Thang</a>
+  <a href="/pho-ga">Phở Gà</a>
 </section>

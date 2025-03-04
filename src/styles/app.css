@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+a {
+	@apply text-blue-800 underline;
+}
+
+h1 {
+	@apply py-4 text-xl;
+}
