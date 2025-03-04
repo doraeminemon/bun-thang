@@ -5,7 +5,7 @@
 <script>
 	import ThuocLaoImg from '$lib/assets/img/thuoc-lao.jpg';
 </script>
-<section class="m-4 min-h-screen flex flex-col inter-normal">
+<section class="m-4 min-h-screen flex flex-col">
   <h1>Thuốc Lào Blog</h1>
   <img src={ThuocLaoImg} width="" alt="Some green tea with smoking pipe">
   <p class="py-4">Khoảnh đất nơi góp nhặt những ý nghĩ về văn hoá Hà Nội</p>
