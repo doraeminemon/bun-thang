@@ -1,4 +1,4 @@
-<section id="bun-cha">
+<section id="bun-cha" class="m-4">
   <h1>Bún chả Hà Nội - Bún chả Sinh Từ</h1>
   <p>
     Bún chả là một món ăn quen thuộc của người Hà Nội. Món bún đơn giản, được
