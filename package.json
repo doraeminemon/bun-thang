@@ -45,5 +45,8 @@
 		"onlyBuiltDependencies": [
 			"esbuild"
 		]
+	},
+	"dependencies": {
+		"preline": "^3.0.0"
 	}
 }
