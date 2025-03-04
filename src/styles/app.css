@@ -28,3 +28,12 @@ a {
 	font-weight: 400;
 	font-style: normal;
 }
+
+@media (prefers-color-scheme: dark) {
+	body {
+		@apply bg-blue-950 text-gray-400;
+	}
+	a {
+		@apply text-gray-300;
+	}
+}
