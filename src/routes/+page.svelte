@@ -14,4 +14,5 @@
   <a href="/tra-da">Trà Đá</a>
   <a href="/bun-thang">Bún Thang</a>
   <a href="/pho-ga">Phở Gà</a>
+  <a href="/che-lam">Chè Lam</a>
 </section>
