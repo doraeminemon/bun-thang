@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Thuốc Lào Blog</title>
+	<meta name="description" content="Một trang web viết về văn hoá Hà Nội" />
+</svelte:head>
 <script>
 	import ThuocLaoImg from '$lib/assets/img/thuoc-lao.jpg';
 </script>
