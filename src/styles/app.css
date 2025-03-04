@@ -1,6 +1,6 @@
-@import 'tailwindcss' prefix(hs);
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
 @import '../../node_modules/preline/variants.css';
-/* @plugin '@tailwindcss/typography'; */
 /* @plugin "@tailwindcss/forms";
 /* @plugin "@tailwindcss/aspect-ratio"; */
 
