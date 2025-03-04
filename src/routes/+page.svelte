@@ -1,5 +1,9 @@
-<section class="mx-4 my-8 min-h-screen flex flex-col">
+<script>
+	import ThuocLaoImg from '$lib/assets/img/thuoc-lao.jpg';
+</script>
+<section class="m-4 min-h-screen flex flex-col">
   <h1>Thuốc Lào Blog</h1>
+  <img src={ThuocLaoImg} width="" alt="Some green tea with smoking pipe">
   <p class="py-4">Chỉ đơn giản là một trang blog về văn hoá Việt Nam</p>
   <a href="/bun-cha">Bún Chả</a>
   <a href="/thuoc-lao">Thuốc Lào</a>

@@ -6,5 +6,5 @@ a {
 }
 
 h1 {
-	@apply py-4 text-xl;
+	@apply py-2 text-xl;
 }
