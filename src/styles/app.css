@@ -8,3 +8,9 @@ a {
 h1 {
 	@apply py-2 text-xl;
 }
+.inter-normal {
+	font-family: 'Inter', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
