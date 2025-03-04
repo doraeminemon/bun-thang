@@ -1,6 +1,8 @@
-@import 'tailwindcss';
+@import 'tailwindcss' prefix(hs);
 @import '../../node_modules/preline/variants.css';
 /* @plugin '@tailwindcss/typography'; */
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/aspect-ratio";
 
 @theme {
 	--color-blue: oklch(0.707 0.165 254.624);
@@ -20,6 +22,10 @@
 	--spacing-9xl: 128rem;
 
 	--radius-4xl: 2rem;
+}
+
+@theme inline {
+	--font-sans: var(--font-inter);
 }
 
 a {

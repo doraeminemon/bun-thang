@@ -1,6 +1,7 @@
 <script>
 	import '../styles/app.css';
 	let { children } = $props();
+	import { injectAnalytics } from '@vercel/analytics/sveltekit'
 </script>
 <svelte:head>
 	<link rel="preconnect" href="https://fonts.googleapis.com">

@@ -47,6 +47,7 @@
 		]
 	},
 	"dependencies": {
+		"@vercel/analytics": "^1.5.0",
 		"preline": "^3.0.0"
 	}
 }
