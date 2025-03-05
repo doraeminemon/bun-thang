@@ -3,7 +3,6 @@
 	<meta name="description" content="Khoảnh đất nơi góp nhặt những ý nghĩ về văn hoá Hà Nội" />
 </svelte:head>
 <section class="m-4 min-h-screen flex flex-col">
-  <h1>Thuốc Lào Blog</h1>
   <p class="py-4">Khoảnh đất nơi góp nhặt những ý nghĩ của một kẻ yêu Hà Nội.</p>
   <ul class="list-disc pl-4">
     <li><a href="/bun-cha">Bún Chả</a></li>

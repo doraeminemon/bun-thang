@@ -5,12 +5,10 @@
 
 <main>
   <h1>Thuốc Lào Phú An</h1>
-  <br />
   <section class="hero">
     <!-- <Image photo={ThuocLaoImg} /> -->
      <img src={ThuocLaoImg} alt="a pipe and a glass of tea"/>
   </section>
-  <br />
   <section class="philosophy">
     <h2>Triết học</h2>
     <p>
