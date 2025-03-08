@@ -1,4 +1,4 @@
-<main id="bun-cha">
+<div id="bun-cha">
   <h1>Bún chả Hà Nội - Bún chả Sinh Từ</h1>
   <p>
     Bún chả là một món ăn quen thuộc của người Hà Nội. Món bún đơn giản, được
@@ -12,4 +12,4 @@
     ngoài đến thăm. Bún ăn vừa miệng, nhẹ nhàng, cho ta nhiều hương vị nhưng không
     quá đầy bụng, cũng như là món ăn thanh cảnh trong mỗi mùa xuân Hà Nội.
   </p>
-</main>
+</div>

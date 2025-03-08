@@ -1,4 +1,4 @@
-<main>
+<div>
   <h1>Cà phê sữa đá</h1>
   <p>
     Đã là một người Hà Nội / Việt Nam, hẳn không thể thiếu ly cà phê sữa đá mỗi buổi sáng.
@@ -20,4 +20,4 @@
     buộc người uống phải uống thật chậm, và ăn một chút điểm tâm sáng nếu bạn không muốn
     điểm dừng chân tiếp theo của bạn là toilet.
   </p>
-</main>
+</div>

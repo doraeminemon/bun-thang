@@ -3,7 +3,7 @@
     import Image from '../../components/image.svelte';
 </script>
 
-<main>
+<div>
   <h1>Thuốc Lào Phú An</h1>
   <section class="hero">
     <!-- <Image photo={ThuocLaoImg} /> -->
@@ -40,4 +40,4 @@
       Join The Club!
     </a>
   </section>
-</main>
+</div>
