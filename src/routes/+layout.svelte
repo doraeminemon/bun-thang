@@ -14,4 +14,6 @@
 		<h1>Thuốc Lào Blog</h1>
 	</a>
 </nav>
-{@render children()}
+<div class="max-w-[700px]">
+	{@render children()}
+</div>
