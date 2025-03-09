@@ -3,7 +3,8 @@
 	let { children } = $props();
 	import { injectAnalytics } from '@vercel/analytics/sveltekit'
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
-injectSpeedInsights();
+	injectSpeedInsights();
+	injectAnalytics();
 </script>
 <svelte:head>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +20,4 @@ injectSpeedInsights();
 </nav>
 <main class="max-w-[700px]">
 	{@render children()}
-	{injectSpeedInsights()}
-	{injectAnalytics()}
 </main>
