@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Thuốc Lào Blog - Bún chả</title>
+	<meta name="description" content="Một bài viết về bún chả Hà Nội - Bún chả Sinh Từ" />
+</svelte:head>
 <div id="bun-cha">
   <h1>Bún chả Hà Nội - Bún chả Sinh Từ</h1>
   <p>

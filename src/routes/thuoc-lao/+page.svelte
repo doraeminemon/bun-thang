@@ -1,6 +1,10 @@
+<svelte:head>
+	<title>Thuốc Lào Blog - Thuốc Lào</title>
+	<meta name="description" content="Một bài viết về thuốc lào và triết lý của nó" />
+</svelte:head>
 <script>
   	import ThuocLaoImg from '$lib/assets/img/thuoc-lao.jpg';
-    import Image from '../../components/image.svelte';
+    // import Image from '../../components/image.svelte';
 </script>
 
 <div>

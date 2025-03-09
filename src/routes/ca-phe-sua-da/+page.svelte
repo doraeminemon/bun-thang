@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Thuốc Lào Blog - Cà phê sữa đá</title>
+	<meta name="description" content="Một bài viết về cà phê sữa đá - phiên bản gốc và Starbucks" />
+</svelte:head>
 <div>
   <h1>Cà phê sữa đá</h1>
   <p>
