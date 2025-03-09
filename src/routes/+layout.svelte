@@ -2,6 +2,8 @@
 	import '../styles/app.css';
 	let { children } = $props();
 	import { injectAnalytics } from '@vercel/analytics/sveltekit'
+	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+injectSpeedInsights();
 </script>
 <svelte:head>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,4 +19,6 @@
 </nav>
 <main class="max-w-[700px]">
 	{@render children()}
+	{injectSpeedInsights()}
+	{injectAnalytics()}
 </main>
