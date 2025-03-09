@@ -3,8 +3,12 @@
 	let { children } = $props();
 	import { injectAnalytics } from '@vercel/analytics/sveltekit'
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
-	injectSpeedInsights();
-	injectAnalytics();
+	import { dev } from '$app/environment';
+	import { onMount } from 'svelte';
+	onMount(() => {
+		injectSpeedInsights();
+		injectAnalytics({ mode: dev ? 'development': 'production' });
+	})
 </script>
 <svelte:head>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
