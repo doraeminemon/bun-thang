@@ -13,6 +13,4 @@
     <li><a href="/che-lam">Chè Lam</a></li>
     <li><a href="/ca-phe-sua-da">Cà Phê Sữa Đá</a></li>
   </ul>
-  <p>Viết bởi <a href="mailto:dodinhthyson@gmail.com" rel="me">Đỗ Đình Thy Sơn</a></p>
-  <a href="/hom-cong-duc">Hòm công đức</a>
 </section>
