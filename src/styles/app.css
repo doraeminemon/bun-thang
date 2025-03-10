@@ -3,7 +3,6 @@
 @import '../../node_modules/preline/variants.css';
 /* @plugin "@tailwindcss/forms";
 /* @plugin "@tailwindcss/aspect-ratio"; */
-@layer components;
 
 @theme {
 	--color-blue: oklch(0.707 0.165 254.624);
@@ -29,90 +28,79 @@
 	--font-sans: var(--font-inter);
 }
 
-a {
-	@apply inline-flex items-center gap-x-2 rounded-lg text-sm font-semibold text-gray-800 hover:text-blue-600 focus:text-blue-600 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-white dark:hover:text-white/70 dark:focus:text-white/70;
-}
-
-p {
-	@apply text-sm;
-}
-
-h1 {
-	@apply py-2 text-xl;
-}
-
-h2 {
-	@apply py-2;
-}
-
-.button {
-	@apply my-4 inline-flex w-full items-center justify-center gap-x-2 rounded-lg border border-gray-200 bg-white px-4 py-3 text-center text-sm font-medium text-gray-800 shadow-2xs hover:bg-gray-50 focus:bg-gray-50 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700;
-}
-a.button {
-	@apply no-underline;
-}
-
-.inter-normal {
-	font-family: 'Inter', sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 400;
-	font-style: normal;
-}
-
-main {
-	@apply mx-4 my-8 min-h-screen;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
-	font-family: 'Inter', sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 400;
-	font-style: normal;
-}
-
-nav {
-	@apply sticky top-0 left-0 m-4 bg-white;
-}
-
-footer {
-	@apply sticky bottom-0 left-0 w-full bg-white px-4 py-4;
-}
-
-main {
-	@apply max-w-[700px];
-}
-
-@layer components {
-	.list-book li::before {
-		content: url('/src/lib/assets/icons/book-icon.svg');
-		width: 1rem;
-		height: 1rem;
-		display: inline-block;
-		margin-right: 0.5rem;
-	}
-}
-
-@media (prefers-color-scheme: dark) {
-	body {
-		@apply bg-blue-950 text-gray-400;
-	}
+@layer base {
 	a {
-		@apply text-gray-300;
+		@apply inline-flex items-center gap-x-2 rounded-lg text-sm font-semibold text-gray-800 hover:text-blue-600 focus:text-blue-600 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-white dark:hover:text-white/70 dark:focus:text-white/70;
 	}
+
+	p {
+		@apply text-sm;
+	}
+
+	h1 {
+		@apply py-2 text-xl;
+	}
+
+	h2 {
+		@apply py-2;
+	}
+
+	.button {
+		@apply my-4 inline-flex w-full items-center justify-center gap-x-2 rounded-lg border border-gray-200 bg-white px-4 py-3 text-center text-sm font-medium text-gray-800 shadow-2xs hover:bg-gray-50 focus:bg-gray-50 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700;
+	}
+	a.button {
+		@apply no-underline;
+	}
+
+	.inter-normal {
+		font-family: 'Inter', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	main {
+		@apply mx-4 my-8 min-h-screen;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	a {
+		font-family: 'Inter', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
 	nav {
-		@apply bg-blue-950;
+		@apply sticky top-0 left-0 m-4 bg-white;
 	}
+
 	footer {
-		@apply bg-blue-950;
+		@apply sticky bottom-0 left-0 w-full bg-white px-4 py-4;
 	}
-	.list-book li::before {
-		filter: invert(100%);
+
+	main {
+		@apply max-w-[700px];
+	}
+
+	@media (prefers-color-scheme: dark) {
+		body {
+			@apply bg-blue-950 text-gray-400;
+		}
+		a {
+			@apply text-gray-300;
+		}
+		nav {
+			@apply bg-blue-950;
+		}
+		footer {
+			@apply bg-blue-950;
+		}
 	}
 }
