@@ -4,7 +4,7 @@
 </svelte:head>
 <section class="m-4 min-h-screen flex flex-col">
   <p class="py-4">Cái xô chứa những suy nghĩ lắng đọng của một kẻ yêu Hà Nội.</p>
-  <ul class="list-disc list-inside mb-4">
+  <ul class="mb-4 list-book list-inside">
     <li><a href="/bun-cha">Bún Chả</a></li>
     <li><a href="/thuoc-lao">Thuốc Lào</a></li>
     <li><a href="/tra-da">Trà Đá</a></li>
