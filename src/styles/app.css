@@ -76,11 +76,29 @@ a {
 	font-style: normal;
 }
 
+nav {
+	@apply sticky top-0 left-0 m-4 bg-white;
+}
+
+footer {
+	@apply sticky bottom-0 left-0 w-full bg-white px-4 py-4;
+}
+
+main {
+	@apply max-w-[700px];
+}
+
 @media (prefers-color-scheme: dark) {
 	body {
 		@apply bg-blue-950 text-gray-400;
 	}
 	a {
 		@apply text-gray-300;
+	}
+	nav {
+		@apply bg-blue-950;
+	}
+	footer {
+		@apply bg-blue-950;
 	}
 }

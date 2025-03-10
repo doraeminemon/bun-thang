@@ -43,6 +43,7 @@
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
+			"@vercel/speed-insights",
 			"esbuild"
 		]
 	},
