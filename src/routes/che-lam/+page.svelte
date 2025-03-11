@@ -4,5 +4,8 @@
 </svelte:head>
 <div>
   <h1>Chè Lam</h1>
-  <p>Một thức ngọt dân dã phù hợp ăn cùng trà đá và thuốc lào.</p>
+  <p>Là một món quà vặt của người Việt, vị ngọt bùi, được làm từ gạo, được phủ
+    một lớp bột bên ngoài và ăn hơi mềm mềm dính dính. Một thức ngọt dân dã phù
+    hợp ăn cùng để ăn cùng sau khi hút thuốc lào và uống trà đá.
+  </p>
 </div>
