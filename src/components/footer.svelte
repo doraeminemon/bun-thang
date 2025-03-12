@@ -9,3 +9,16 @@
 		 Hòm công đức
 	</a>
 </footer>
+<style lang="postcss">
+	@reference "tailwindcss";
+
+	footer {
+		@apply sticky bottom-0 left-0 w-full bg-white px-4 py-4;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		footer {
+			@apply bg-blue-950;
+		}
+	}
+</style>
