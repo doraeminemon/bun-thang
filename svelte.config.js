@@ -11,7 +11,12 @@ const config = {
 				minimumCacheTTL: 300,
 				domains: ['bun-thang.vercel.app'],
 			}
-		})
+		}),
+
+		alias: {
+			// this will match a file
+			'$components': './src/components',
+		}
 	},
 
 	preprocess: [mdsvex()],

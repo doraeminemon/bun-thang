@@ -5,12 +5,12 @@
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 	import { dev } from '$app/environment';
 	import { onMount } from 'svelte';
-	import CashIcon from '$lib/assets/icons/cash-icon.svelte';
-	import AtIcon from '$lib/assets/icons/at-icon.svelte';
 	onMount(() => {
 		injectSpeedInsights();
 		injectAnalytics({ mode: dev ? 'development': 'production' });
 	})
+	import NavBar from '$components/nav-bar.svelte';
+	import Footer from '$components/footer.svelte';
 </script>
 <svelte:head>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,18 +18,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </svelte:head>
 
-<nav>
-	<a href="/">
-		<h1>Thuốc Lào Blog</h1>
-	</a>
-</nav>
+<NavBar />
 <main>
 	{@render children()}
 </main>
-<footer>
-  <p>Viết bởi <a href="mailto:dodinhthyson@gmail.com" rel="me"><AtIcon />Đỗ Đình Thy Sơn</a></p>
-  <a href="/hom-cong-duc">
-		<CashIcon />
-		 Hòm công đức
-	</a>
-</footer>
+<Footer />
