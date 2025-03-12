@@ -23,19 +23,19 @@
     <h2>
       Cách dùng</h2>
     <p>
-      Thuốc Lào Phú An - Tobacco Rustica "Wealthy Peace". Có thể tìm thấy ở trên bất kì con phố hàng trà đá nào ở Hà Nội. Có
-      thể sử dụng cùng với trà xanh.
-      Chỉ cần làm vài hơi và sau đó kéo một hơi dài, nhớ đừng hít vào phổi - với lần đầu hoàn toàn có thể làm bạn hơi chóng mặt. Nhưng nếu bạn
-      đã quen với nó, nó chắc chắn sẽ làm bạn có những cảm giác khoan khoái lạ thường. Nó sẽ gíúp bạn có năng lượng cho
-      cả ngày dài.
+      Thuốc Lào Phú An - Tobacco Rustica "Wealthy Peace". Có thể tìm thấy ở trên bất kì con phố hàng trà đá nào ở Hà Nội.
+      Có thể sử dụng cùng với trà xanh.
+      Chỉ cần làm vài hơi và sau đó kéo một hơi dài, nhớ đừng hít vào phổi - với lần đầu hoàn toàn có thể làm bạn hơi
+      chóng mặt. Nhưng nếu bạn đã quen với nó, nó chắc chắn sẽ làm bạn có những cảm giác khoan khoái lạ thường. Nó sẽ
+      gíúp bạn có năng lượng cho cả ngày dài.
     </p>
   </section>
   <section class="action">
     <h2>
       Bao giờ nên sử dụng</h2>
     <p>
-      Nên sử dụng ngay sau khi ăn mỗi ngày. Có thể dùng xen kẽ khi giao lưu. Nó là một bài tập giúp phổi tốt hơn cũng
-      như chống cúm ở nơi khí hậu ẩm ướt như Việt Nam.
+      Nên sử dụng ngay sau khi ăn mỗi ngày. Có thể dùng xen kẽ khi giao lưu. Đó là một bài thuốc dân gian
+      giúp chống cúm ở nơi khí hậu ẩm ướt như Việt Nam.
     </p>
   </section>
   <br />
