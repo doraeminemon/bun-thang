@@ -23,3 +23,10 @@
 	{@render children()}
 </main>
 <Footer />
+<style lang="postcss">
+	@references "tailwindcss";
+
+	main {
+		@apply min-h-screen max-w-[700px];
+	}
+</style>
