@@ -12,6 +12,7 @@
 	--color-gray-dark: oklch(0.13 0.028 261.692);
 	--color-gray: oklch(0.707 0.022 261.325);
 	--color-gray-light: oklch(0.985 0.002 247.839);
+	--color-prussian-blue: #003049;
 
 	--font-serif: 'Merriweather', 'serif';
 	--columns: 14;
@@ -28,7 +29,7 @@
 
 @layer base {
 	a {
-		@apply inline-flex items-center gap-x-2 rounded-lg text-sm font-semibold text-gray-800 hover:text-blue-600 focus:text-blue-600 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-white dark:hover:text-white/70 dark:focus:text-white/70;
+		@apply inline-flex items-center gap-x-2 rounded-lg text-sm font-semibold text-gray-800 hover:text-blue-600 focus:text-blue-600 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-gray-300 dark:hover:text-white/70 dark:focus:text-white/70;
 	}
 
 	p {
@@ -61,12 +62,7 @@
 		@apply px-4;
 	}
 
-	@media (prefers-color-scheme: dark) {
-		body {
-			@apply bg-blue-950 text-gray-400;
-		}
-		a {
-			@apply text-gray-300;
-		}
+	body {
+		@apply dark:bg-prussian-blue text-gray-400;
 	}
 }
