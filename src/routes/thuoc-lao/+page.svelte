@@ -7,7 +7,7 @@
     // import Image from '../../components/image.svelte';
 </script>
 
-<div>
+<div class="content">
   <h1>Thuốc Lào Phú An</h1>
   <section class="hero">
     <!-- <Image photo={ThuocLaoImg} /> -->
@@ -40,7 +40,7 @@
   </section>
   <br />
   <section class="flex flex-col items-center">
-    <a class="button" href="https://wise-horse-drsbjai2.twenty.com/invite/b1778fdf-ec56-43ca-a42d-5c8cddf2e0c1">
+    <a class="button" href="https://join.slack.com/t/thuoclaohomies/shared_invite/zt-319mx7unp-t_V6XXvD08kvAQkEa0nUnw">
       Join The Club!
     </a>
   </section>

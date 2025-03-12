@@ -60,7 +60,7 @@
 	}
 
 	main {
-		@apply mx-4 my-8 min-h-screen;
+		@apply min-h-screen;
 	}
 
 	h1,
@@ -87,6 +87,10 @@
 
 	main {
 		@apply max-w-[700px];
+	}
+
+	.content {
+		@apply px-4;
 	}
 
 	@media (prefers-color-scheme: dark) {

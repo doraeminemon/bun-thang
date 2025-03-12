@@ -2,7 +2,7 @@
 	<title>Thuốc Lào Blog - Bún chả</title>
 	<meta name="description" content="Một bài viết về bún chả Hà Nội - Bún chả Sinh Từ" />
 </svelte:head>
-<div id="bun-cha">
+<div id="bun-cha" class="content">
   <h1>Bún chả Hà Nội - Bún chả Sinh Từ</h1>
   <p>
     Bún chả là một món ăn quen thuộc của người Hà Nội. Món bún đơn giản, được

@@ -5,8 +5,8 @@
 <script>
   import LinkItem from '$components/list-item.svelte'
 </script>
-<section class="m-4 min-h-screen flex flex-col">
-  <p class="py-4">Cái xô chứa những suy nghĩ lắng đọng của một kẻ yêu Hà Nội.</p>
+<section class="mx-4 flex flex-col gap-y-4">
+  <p>Cái xô chứa những suy nghĩ lắng đọng của một kẻ yêu Hà Nội.</p>
   <ul class="mb-4 list-book list-inside">
     <LinkItem href="/bun-cha">Bún Chả</LinkItem>
     <LinkItem href="/thuoc-lao">Thuốc Lào</LinkItem>

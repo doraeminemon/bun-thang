@@ -2,7 +2,7 @@
 	<title>Thuốc Lào Blog - Cà phê sữa đá</title>
 	<meta name="description" content="Một bài viết về cà phê sữa đá - phiên bản gốc và Starbucks" />
 </svelte:head>
-<div>
+<div class="content">
   <h1>Cà phê sữa đá</h1>
   <p>
     Đã là một người Hà Nội / Việt Nam, hẳn không thể thiếu ly cà phê sữa đá mỗi buổi sáng.
