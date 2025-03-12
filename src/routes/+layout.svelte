@@ -24,7 +24,7 @@
 </main>
 <Footer />
 <style lang="postcss">
-	@references "tailwindcss";
+	@reference "tailwindcss";
 
 	main {
 		@apply min-h-screen max-w-[700px];

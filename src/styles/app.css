@@ -1,8 +1,6 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
-@import '../../node_modules/preline/variants.css';
-/* @plugin "@tailwindcss/forms";
-/* @plugin "@tailwindcss/aspect-ratio"; */
+/* @import '../../node_modules/preline/variants.css'; */
 
 @theme {
 	--color-blue: oklch(0.707 0.165 254.624);
@@ -43,20 +41,6 @@
 
 	h2 {
 		@apply py-2;
-	}
-
-	.button {
-		@apply my-4 inline-flex w-full items-center justify-center gap-x-2 rounded-lg border border-gray-200 bg-white px-4 py-3 text-center text-sm font-medium text-gray-800 shadow-2xs hover:bg-gray-50 focus:bg-gray-50 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700;
-	}
-	a.button {
-		@apply no-underline;
-	}
-
-	.inter-normal {
-		font-family: 'Inter', sans-serif;
-		font-optical-sizing: auto;
-		font-weight: 400;
-		font-style: normal;
 	}
 
 	h1,
