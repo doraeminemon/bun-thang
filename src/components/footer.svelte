@@ -3,8 +3,8 @@
 	import AtIcon from '$lib/assets/icons/at-icon.svelte';
 </script>
 <footer class="flex flex-col">
-  <a href="mailto:dodinhthyson@gmail.com" rel="me"><AtIcon />Đỗ Đình Thy Sơn</a>
-  <a href="/hom-cong-duc">
+  <a href="mailto:dodinhthyson@gmail.com" rel="me" class="p-1"><AtIcon />Đỗ Đình Thy Sơn</a>
+  <a href="/hom-cong-duc" class="p-1">
 		<CashIcon />
 		 Hòm công đức
 	</a>
