@@ -29,8 +29,4 @@
 	main {
 		@apply min-h-screen max-w-[700px];
 	}
-
-	:global(html) {
-		--color-prussian-blue: #003049;
-	}
 </style>

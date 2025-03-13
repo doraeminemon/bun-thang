@@ -13,6 +13,7 @@
     <LinkItem href="/tra-da">Trà Đá</LinkItem>
     <LinkItem href="/bun-thang">Bún Thang</LinkItem>
     <LinkItem href="/pho-ga">Phở Gà</LinkItem>
+    <LinkItem href="/pho-bo">Phở Bò</LinkItem>
     <LinkItem href="/che-lam">Chè Lam</LinkItem>
     <LinkItem href="/ca-phe-sua-da">Cà Phê Sữa Đá</LinkItem>
   </ul>
