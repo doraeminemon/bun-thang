@@ -1,6 +1,6 @@
 pre-push:
   parallel: true
-commit-msg:
-  jobs:
-    - script: "template_checker"
+pre-commit:
+  scripts:
+    "template-checker.sh":
       runner: bash
