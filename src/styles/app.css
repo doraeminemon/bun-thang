@@ -12,7 +12,7 @@
 	--color-gray-dark: oklch(0.13 0.028 261.692);
 	--color-gray: oklch(0.707 0.022 261.325);
 	--color-gray-light: oklch(0.985 0.002 247.839);
-	--color-prussian-blue: oklch(52.81% 0.11813550214372558 238.56767044579345);
+	--color-prussian-blue: oklch(0.3721 0.0715 238.47);
 
 	--font-serif: 'Merriweather', 'serif';
 	--columns: 14;
@@ -63,6 +63,6 @@
 	}
 
 	body {
-		@apply dark:bg-prussian-blue dark:text-gray-400;
+		@apply dark:bg-prussian-blue dark:text-gray-300;
 	}
 }
