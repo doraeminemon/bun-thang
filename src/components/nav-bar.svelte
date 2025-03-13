@@ -4,7 +4,6 @@
 	</a>
 </nav>
 <style lang="postcss">
-	@reference "tailwindcss";
 	@reference "../styles/app.css";
 	nav {
 		@apply sticky top-0 left-0 m-4 bg-white dark:bg-prussian-blue;

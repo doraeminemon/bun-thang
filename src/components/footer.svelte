@@ -10,7 +10,6 @@
 	</a>
 </footer>
 <style lang="postcss">
-	@reference "tailwindcss";
 	@reference "../styles/app.css";
 
 	footer {
