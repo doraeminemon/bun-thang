@@ -12,7 +12,7 @@
 	--color-gray-dark: oklch(0.13 0.028 261.692);
 	--color-gray: oklch(0.707 0.022 261.325);
 	--color-gray-light: oklch(0.985 0.002 247.839);
-	--color-prussian-blue: #003049;
+	--color-prussian-blue: oklch(52.81% 0.11813550214372558 238.56767044579345);
 
 	--font-serif: 'Merriweather', 'serif';
 	--columns: 14;
