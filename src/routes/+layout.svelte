@@ -1,5 +1,5 @@
 <script>
-	import '../styles/app.css';
+	import '$styles/app.css';
 	let { children } = $props();
 	import { injectAnalytics } from '@vercel/analytics/sveltekit'
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';

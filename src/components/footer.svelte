@@ -10,7 +10,7 @@
 	</a>
 </footer>
 <style lang="postcss">
-	@reference "../styles/app.css";
+	@reference "$styles/app.css";
 
 	footer {
 		@apply sticky bottom-0 left-0 w-full bg-white px-4 py-4 dark:bg-prussian-blue flex flex-col;

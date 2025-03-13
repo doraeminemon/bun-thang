@@ -46,7 +46,7 @@
   </section>
 </div>
 <style lang="postcss">
-  @reference "../../styles/app.css";
+  @reference "$styles/app.css";
 
 	.button {
 		@apply my-4 inline-flex w-full items-center justify-center gap-x-2 rounded-lg border border-gray-200 bg-white px-4 py-3 text-center text-sm font-medium text-gray-800 shadow-2xs hover:bg-gray-50 focus:bg-gray-50 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700;
