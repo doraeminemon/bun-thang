@@ -13,6 +13,6 @@
 	@reference "tailwindcss";
 
 	footer {
-		@apply sticky bottom-0 left-0 w-full bg-white px-4 py-4 dark:bg-[var(--color-prussian-blue)];
+		@apply sticky bottom-0 left-0 w-full bg-white px-4 py-4 dark:bg-prussian-blue;
 	}
 </style>
