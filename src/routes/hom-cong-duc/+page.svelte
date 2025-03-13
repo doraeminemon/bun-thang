@@ -2,15 +2,18 @@
 	<title>Thuốc Lào Blog - Hòm công đức</title>
 	<meta name="description" content="Hòm công đức" />
 </svelte:head>
-<script>
-  import BnbChainImg from '$lib/assets/img/bnb-chain.jpeg';
-  import EvmChainImg from '$lib/assets/img/evm-chain.jpeg';
-  import TechcombankImg from '$lib/assets/img/techcombank.jpeg';
+<script lang="ts">
+	import CopyButton from '$components/copy-button.svelte';
 </script>
 <div class="content">
   <h1>Hòm công đức</h1>
-  <p class="mb-4">Nếu thấy blog hay, bạn có thể thoải mái gửi tiền vào 1 trong 3 địa chỉ sau:</p>
-  <img class="mb-4" src={BnbChainImg} alt="QR code for donation on BNBChain"/>
-  <img class="mb-4" src={EvmChainImg} alt="QR code for donation on EVMChain"/>
-  <img class="mb-4" src={TechcombankImg} alt="QR code for donation on Techcombank"/>
+  <p class="mb-4">Nếu thấy blog hay, bạn có thể thoải mái gửi tiền vào 1 trong 2 địa chỉ sau:</p>
+  <div class="grid grid-cols-[7rem_24rem_2rem]">
+    <p class="font-mono flex items-center">Techcombank: </p>
+    <p class="font-mono flex items-center">DODINHTHYSON</p>
+    <CopyButton content="DODINHTHYSON"/>
+    <p class="font-mono flex items-center">Crypto: </p>
+    <p class="font-mono flex items-center">0xA24142bBFb0590511f26cE8f4658E70390dB8C0b</p>
+    <CopyButton content="0xA24142bBFb0590511f26cE8f4658E70390dB8C0b"/>
+  </div>
 </div>
