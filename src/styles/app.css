@@ -27,10 +27,6 @@
 	--font-sans: var(--font-inter);
 }
 
-@utility .bg-prussian-blue {
-	background-color: var(--color-prussian-blue);
-}
-
 @layer base {
 	a {
 		@apply inline-flex items-center gap-x-2 rounded-lg text-sm font-semibold text-gray-800 hover:text-blue-600 focus:text-blue-600 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-gray-300 dark:hover:text-white/70 dark:focus:text-white/70;
