@@ -1,6 +1,7 @@
 <script>
 	import CashIcon from '$lib/assets/icons/cash-icon.svelte';
 	import AtIcon from '$lib/assets/icons/at-icon.svelte';
+	import FolderIcon from '$lib/assets/icons/folder-icon.svelte';
 </script>
 <footer>
   <a href="mailto:dodinhthyson@gmail.com" rel="me" class="p-1"><AtIcon />Đỗ Đình Thy Sơn</a>
@@ -8,6 +9,7 @@
 		<CashIcon />
 		 Hòm công đức
 	</a>
+	<a href="https://github.com/doraeminemon/bun-thang" class="p-1"><FolderIcon />Mã nguồn</a>
 </footer>
 <style lang="postcss">
 	@reference "$styles/app.css";
