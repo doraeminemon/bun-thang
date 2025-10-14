@@ -6,9 +6,9 @@
 	<title>Thuốc Lào Blog</title>
 	<meta name="description" content="Cái xô chứa những suy nghĩ lắng đọng của một kẻ yêu Hà Nội." />
 </svelte:head>
-<section class="mx-4 flex flex-col gap-y-4">
+<section>
 	<p>Cái xô chứa những suy nghĩ lắng đọng của một kẻ yêu Hà Nội.</p>
-	<ul class="list-book mb-4 list-inside">
+	<ul class="list-book">
 		<LinkItem href="/bun-cha">Bún Chả</LinkItem>
 		<LinkItem href="/thuoc-lao">Thuốc Lào</LinkItem>
 		<LinkItem href="/tra-da">Trà Đá</LinkItem>
@@ -20,3 +20,14 @@
 		<LinkItem href="/ha-noi-khoanh-khac">Hà Nội Khoảnh Khắc</LinkItem>
 	</ul>
 </section>
+
+<style lang="postcss">
+	@reference "$styles/app.css";
+
+	section {
+		@apply mx-4 flex flex-col gap-y-4;
+	}
+	ul {
+		@apply mb-4 list-inside;
+	}
+</style>

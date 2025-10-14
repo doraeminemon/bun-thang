@@ -1,0 +1,5 @@
+{
+  "oxc.enable": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "ardenivanov.svelte-intellisense",
+}
