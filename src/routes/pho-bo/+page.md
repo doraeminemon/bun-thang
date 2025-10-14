@@ -1,5 +1,5 @@
 ---
-title: Thuốc Lào Blog - Phở bò
+title: Bún Thang Blog - Phở bò
 description: Một bài viết về phở bò Hà Nội
 layout: article
 ---

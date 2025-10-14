@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Thuốc Lào Blog - Hà Nội Khoảnh Khắc</title>
+	<title>Bún Thang Blog - Hà Nội Khoảnh Khắc</title>
 	<meta name="description" content="Một ca khúc mang tên Hà Nội Khoảnh Khắc" />
 </svelte:head>
 <div class="content">

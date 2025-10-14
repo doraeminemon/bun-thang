@@ -1,6 +1,6 @@
 <nav>
 	<a href="/">
-		<h1>Thuốc Lào Blog</h1>
+		<h1>Bún Thang Blog</h1>
 	</a>
 </nav>
 
