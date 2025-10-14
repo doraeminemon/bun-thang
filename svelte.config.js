@@ -42,6 +42,9 @@ const config = {
 			rehypeSlug,
 			rehypeAutolinkHeadings,
 		],
+		layout: {
+			article: "./src/layout/+article_layout.svelte",
+		}
 	})
 	],
 	extensions: ['.svelte', '.md']
